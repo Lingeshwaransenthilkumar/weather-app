@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Fira+Sans:wght@600&family=Permanent+Marker&family=Roboto&family=Roboto+Slab&family=Ysabeau+SC:wght@600;800;1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Permanent Marker', cursive;
+    box-sizing: border-box;
+}
+body{
+    background-color: #222;
+   
+}
+.card{
+    background:conic-gradient(from -.5turn at bottom right, deeppink, cyan, rebeccapurple) ;
+    width: 90%;
+    max-width: 470px;
+    margin: 100px auto 0;
+    border: transparent;
+    padding: 40px 35px;
+    text-align: center;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search input{
+    padding-left: 10px;
+    font-weight: bold;
+    width: 80%;
+    font-size: 1rem;
+    height: 55px;
+    border: transparent;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.search input::placeholder{
+    padding-left: 10px;
+}
+.search input:focus{
+    outline: none;
+}
+.search button{
+    border: none;
+    border-radius: 50px;
+    outline: 0;
+    background: #ebfffc;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+
+}
+.search img{
+    width: 16px;
+}
+.weather-icon{
+    width: 170px;
+    margin-top: 30px;
+}
+.weather h1{
+    font-size: 80px;
+    font-weight: 500;
+}
+.weather h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top:-10px;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 0 20px;
+    margin: 50px;
+    margin-right: 4px;
+
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.col img{
+    width: 40px;
+    margin-right: 10px;
+}
+.humidity,.wind{
+    font-size: 28px;
+    margin-top: -6px;
+
+}
+.weather{
+    display: none;
+}
+.error{
+    text-align: left;
+    margin-left:10px;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+    color: red;
+}
+
+
